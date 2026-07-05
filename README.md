@@ -4,7 +4,7 @@ A closed-loop research workflow for power electronics, combining
 graph-based modeling, AI agents with direct tool access, and
 switched-circuit simulation.
 
-*EliteGrid Research Lab*
+*ELITE Grid Research Lab*
 
 ---
 
@@ -78,8 +78,11 @@ traceable to an archived result file.
 
 ## References
 
-- *Graph Theory in Power Converters*, EliteGrid Research Lab monograph,
+- Yuzhuo Li and Yunwei Li, *Graph Theory in Power Converters*, monograph,
   forthcoming. The graph-theoretic foundation of this workflow.
+- Y. Li, J. Kuprat, Y. Li, and M. Liserre, "Graph-Theory-Based Derivation,
+  Modeling, and Control of Power Converter Systems," *IEEE Journal of
+  Emerging and Selected Topics in Power Electronics*, 2022.
 - R. W. Erickson and D. Maksimović, *Fundamentals of Power Electronics*,
   3rd ed., Springer, 2020. The classical reference used for
   machine-verified textbook facts.
@@ -99,6 +102,6 @@ traceable to an archived result file.
 
 ## License
 
-Content (documents, figures, slides) © EliteGrid Research Lab, licensed
-under [CC BY-NC-ND 4.0](LICENSE). Cite as: EliteGrid Research Lab,
+Content (documents, figures, slides) © ELITE Grid Research Lab, licensed
+under [CC BY-NC-ND 4.0](LICENSE). Cite as: ELITE Grid Research Lab,
 "Graph-Driven Agentic Research Automation," 2026.

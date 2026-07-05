@@ -1,6 +1,6 @@
 # Case study: a five-level current-source inverter, from paper topology to grid-quality operation in one working day
 
-*EliteGrid Research Lab — all numbers transcribed from archived,
+*ELITE Grid Research Lab — all numbers transcribed from archived,
 independently audited experiment artifacts.*
 
 ## Objective

@@ -108,6 +108,7 @@ from zero stored energy (see the case study for details).*
 | [`docs/presentation.html`](docs/presentation.html) | A 19-slide overview (self-contained HTML; download and open, navigate with arrow keys). Written for engineers without prior background in AI or graph theory. |
 | [`case-studies/five-level-csc-mpc/`](case-studies/five-level-csc-mpc/) | Case study: a five-level current-source inverter taken from a paper topology to grid-quality closed-loop operation in one working day, including the controller revisions that failed. |
 | [`methodology/`](methodology/) | The research pipeline, the supporting tools, and the governance process. |
+| [`docs/agentic_ai_matlab_simulink_mcp_tutorial_en.md`](docs/agentic_ai_matlab_simulink_mcp_tutorial_en.md) | Beginner-friendly tutorial: set up an AI coding agent to operate MATLAB/Simulink directly through MCP — the same connection used in this workflow. No prior MCP knowledge assumed. |
 
 ## References
 

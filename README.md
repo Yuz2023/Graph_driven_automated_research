@@ -55,6 +55,14 @@ number; a second review agent examines the interpretation for errors.
 Findings from review are recorded and converted into permanent automated
 checks.
 
+![Before and after: closing the simulation loop](docs/media/workflow.png)
+
+*Left: a language model used as an advisor — every iteration stalls at a
+human relay (building the model, reading waveforms, retyping numbers).
+Right: this workflow — the agent operates MATLAB/Simulink directly through
+MCP, parses the signals itself, and checks the results against pass/fail
+criteria fixed before the run.*
+
 ### 3. Simulation in Simulink/Simscape
 
 Every claim is checked against switched-circuit simulation with device

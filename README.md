@@ -17,6 +17,13 @@ results, evaluating them against engineering standards, and archiving the
 outcome. The human researcher supervises the process, sets the standards,
 and makes the final decisions.
 
+![Workflow at a glance](docs/media/pipeline_overview.svg)
+
+*The workflow at a glance: a closed agent loop under human supervision,
+running on a graph-theoretic backbone — the knowledge graph grounds what to
+study, circuit graphs define what gets built and simulated, and the
+provenance graph records everything that happens.*
+
 ## Why this combination
 
 The workflow combines three components. Each is established on its own;

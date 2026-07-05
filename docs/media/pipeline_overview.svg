@@ -1,0 +1,78 @@
+<svg viewBox="0 0 980 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="ad" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#333"/></marker>
+    <marker id="ab" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#1f4e79"/></marker>
+  </defs>
+  <rect x="0" y="0" width="980" height="430" fill="#ffffff"/>
+
+  <!-- HUMAN lane -->
+  <line x1="0" y1="6" x2="980" y2="6" stroke="#e4e4e4" stroke-width="1"/>
+  <text x="6" y="18" font-size="9.5" font-weight="bold" fill="#999">HUMAN</text>
+  <rect x="330" y="24" width="320" height="48" fill="#fff" stroke="#444" stroke-width="1"/>
+  <text x="490" y="44" font-size="11.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Human researcher</text>
+  <text x="490" y="60" font-size="10" fill="#555" text-anchor="middle">sets the standards, makes the final decisions</text>
+  <line x1="490" y1="72" x2="490" y2="142" stroke="#333" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="498" y="110" font-size="9.5" fill="#999">standards in, decisions out</text>
+
+  <!-- AGENT lane -->
+  <line x1="0" y1="90" x2="980" y2="90" stroke="#e4e4e4" stroke-width="1"/>
+  <text x="6" y="102" font-size="9.5" font-weight="bold" fill="#999">AI AGENTS — CLOSED RESEARCH LOOP</text>
+
+  <rect x="25" y="146" width="170" height="62" fill="#fff" stroke="#444" stroke-width="1"/>
+  <text x="110" y="166" font-size="11.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">1. Select topic</text>
+  <text x="110" y="182" font-size="10" fill="#555" text-anchor="middle">ranked open questions</text>
+
+  <rect x="215" y="146" width="170" height="62" fill="#fff" stroke="#444" stroke-width="1"/>
+  <text x="300" y="166" font-size="11.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">2. Fix the contract</text>
+  <text x="300" y="182" font-size="10" fill="#555" text-anchor="middle">hypotheses + pass criteria</text>
+  <text x="300" y="196" font-size="10" fill="#555" text-anchor="middle">frozen before any run</text>
+
+  <rect x="405" y="146" width="170" height="62" fill="#fff" stroke="#444" stroke-width="1"/>
+  <text x="490" y="166" font-size="11.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">3. Build &amp; simulate</text>
+  <text x="490" y="182" font-size="10" fill="#555" text-anchor="middle">agents drive MATLAB/</text>
+  <text x="490" y="196" font-size="10" fill="#555" text-anchor="middle">Simulink directly via MCP</text>
+
+  <rect x="595" y="146" width="170" height="62" fill="#fff" stroke="#444" stroke-width="1"/>
+  <text x="680" y="166" font-size="11.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">4. Independent review</text>
+  <text x="680" y="182" font-size="10" fill="#555" text-anchor="middle">two audit agents reproduce</text>
+  <text x="680" y="196" font-size="10" fill="#555" text-anchor="middle">and recompute every number</text>
+
+  <rect x="785" y="146" width="170" height="62" fill="#fff" stroke="#444" stroke-width="1"/>
+  <text x="870" y="166" font-size="11.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">5. Archive &amp; rules</text>
+  <text x="870" y="182" font-size="10" fill="#555" text-anchor="middle">verified results archived,</text>
+  <text x="870" y="196" font-size="10" fill="#555" text-anchor="middle">errors become new checks</text>
+
+  <line x1="195" y1="177" x2="213" y2="177" stroke="#333" stroke-width="1" marker-end="url(#ad)"/>
+  <line x1="385" y1="177" x2="403" y2="177" stroke="#333" stroke-width="1" marker-end="url(#ad)"/>
+  <line x1="575" y1="177" x2="593" y2="177" stroke="#333" stroke-width="1" marker-end="url(#ad)"/>
+  <line x1="765" y1="177" x2="783" y2="177" stroke="#333" stroke-width="1" marker-end="url(#ad)"/>
+
+  <text x="490" y="232" font-size="9.5" fill="#999" text-anchor="middle">approved rules constrain the next cycle</text>
+  <path d="M 870 208 V 244 H 110 V 212" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#ad)"/>
+
+  <!-- GRAPH band -->
+  <rect x="0" y="266" width="980" height="158" fill="#eef1f5"/>
+  <text x="6" y="284" font-size="10.5" font-weight="bold" fill="#1f4e79">GRAPH-THEORETIC BACKBONE</text>
+
+  <line x1="175" y1="322" x2="175" y2="252" stroke="#1f4e79" stroke-width="1.2" marker-end="url(#ab)"/>
+  <text x="183" y="294" font-size="9.5" fill="#1f4e79">grounds topic selection</text>
+  <line x1="490" y1="322" x2="490" y2="252" stroke="#1f4e79" stroke-width="1.2" marker-end="url(#ab)"/>
+  <text x="498" y="294" font-size="9.5" fill="#1f4e79">defines the models built</text>
+  <line x1="805" y1="252" x2="805" y2="320" stroke="#1f4e79" stroke-width="1.2" marker-end="url(#ab)"/>
+  <text x="813" y="294" font-size="9.5" fill="#1f4e79">records every step</text>
+
+  <rect x="35" y="324" width="280" height="72" fill="#fff" stroke="#1f4e79" stroke-width="1.5"/>
+  <text x="175" y="346" font-size="11.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Knowledge graph</text>
+  <text x="175" y="362" font-size="10" fill="#555" text-anchor="middle">13,965 nodes of laboratory knowledge —</text>
+  <text x="175" y="376" font-size="10" fill="#555" text-anchor="middle">retrieval traceable to its sources</text>
+
+  <rect x="350" y="324" width="280" height="72" fill="#fff" stroke="#1f4e79" stroke-width="1.5"/>
+  <text x="490" y="346" font-size="11.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Circuit graphs</text>
+  <text x="490" y="362" font-size="10" fill="#555" text-anchor="middle">converters modeled as graphs —</text>
+  <text x="490" y="376" font-size="10" fill="#555" text-anchor="middle">topology operations machine-checkable</text>
+
+  <rect x="665" y="324" width="280" height="72" fill="#fff" stroke="#1f4e79" stroke-width="1.5"/>
+  <text x="805" y="346" font-size="11.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Provenance graph</text>
+  <text x="805" y="362" font-size="10" fill="#555" text-anchor="middle">every decision and experiment recorded —</text>
+  <text x="805" y="376" font-size="10" fill="#555" text-anchor="middle">every conclusion traceable</text>
+</svg>

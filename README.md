@@ -68,6 +68,31 @@ tools, and simulation provides the physical reference. The result is a
 research cycle that completes in hours, with every reported number
 traceable to an archived result file.
 
+## Selected results
+
+![Translated converter pair, simulated waveforms](docs/media/vsc_csc_translated_waveforms.png)
+
+*Simulated three-phase waveforms of a converter design and its machine-translated
+twin: phase-voltage PWM of the voltage-source converter (three-level) and
+phase-current PWM of the resulting current-source converter (five-level).
+Both models were built and simulated in MATLAB/Simulink by the agents.*
+
+| | |
+|---|---|
+| ![Simulink model, VSC](docs/media/simulink_model_vsc.png) | ![Simulink model, CSC](docs/media/simulink_model_csc.png) |
+
+*Agent-built Simulink/Simscape models: the voltage-source converter (left) and
+its current-source counterpart (right), constructed block-by-block from the
+graph representation — not drawn by hand.*
+
+| | |
+|---|---|
+| ![Converter graph pair](docs/media/converter_graph_pair.png) | ![Closed-loop start-up](case-studies/five-level-csc-mpc/figures/closedloop_bootstrap.png) |
+
+*Left: the graph representation behind both circuits — the same graph read two
+ways. Right: closed-loop start-up of the five-level current-source inverter
+from zero stored energy (see the case study for details).*
+
 ## Contents
 
 | | |

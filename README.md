@@ -103,6 +103,19 @@ graph representation — not drawn by hand.*
 ways. Right: closed-loop start-up of the five-level current-source inverter
 from zero stored energy (see the case study for details).*
 
+![Laboratory knowledge graph](docs/media/knowledge_graph_unlabeled.png)
+
+*The laboratory knowledge graph that grounds agent retrieval — publications,
+experiment reports, and verified textbook facts indexed as one connected
+structure (shown unlabeled).*
+
+![Provenance graph, causal trace](docs/media/provenance_causal_trace.png)
+
+*A slice of the provenance graph: the documented causal chain behind one
+research finding — problem claims, experiment arcs, supervisor rulings,
+incident reports, and the automated rules they produced. Every edge is
+re-derivable from the archived records.*
+
 ## Contents
 
 | | |
@@ -138,6 +151,14 @@ from zero stored energy (see the case study for details).*
   other software. The MATLAB/Simulink side is provided by the
   [Simulink Agentic Toolkit](https://github.com/matlab/simulink-agentic-toolkit)
   and the [MATLAB MCP Core Server](https://github.com/matlab/matlab-mcp-core-server).
+
+## Project status
+
+This is an ongoing project. The methodology and its supporting source code
+— the graph tooling, the agent harness, and the governance pipeline — are
+under active development and not yet public. Components will be shared
+selectively as they mature; this repository will be updated as that
+happens.
 
 ## License
 

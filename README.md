@@ -46,9 +46,11 @@ The graph-theoretic foundation is developed in the laboratory's monograph
 
 ### 2. AI agents with direct tool access
 
-Through the Model Context Protocol (MCP), the agents operate professional
-engineering software directly: they build and run simulations, process
-measurement data, and execute large enumerations in parallel. The work is
+Through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io),
+the agents operate professional engineering software directly: they build
+and run simulations, process measurement data, and execute large
+enumerations in parallel. The MATLAB/Simulink connection uses MathWorks'
+[Simulink Agentic Toolkit](https://github.com/matlab/simulink-agentic-toolkit). The work is
 divided among separate roles. A research agent performs the study; a first
 review agent independently reproduces and recomputes every reported
 number; a second review agent examines the interpretation for errors.
@@ -131,8 +133,11 @@ from zero stored energy (see the case study for details).*
   models," *Nature* 624, 2023.
 - A. Merchant et al., "Scaling deep learning for materials discovery,"
   *Nature* 624, 2023.
-- Model Context Protocol (MCP), the open interface through which the
-  agents operate MATLAB/Simulink and other software.
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io), the
+  open interface through which the agents operate MATLAB/Simulink and
+  other software. The MATLAB/Simulink side is provided by the
+  [Simulink Agentic Toolkit](https://github.com/matlab/simulink-agentic-toolkit)
+  and the [MATLAB MCP Core Server](https://github.com/matlab/matlab-mcp-core-server).
 
 ## License
 

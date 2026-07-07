@@ -12,10 +12,11 @@ machine-verified.
 
 ## Process and results
 
-1. **Operating-state analysis, exhaustive.** All **343** admissible
-   switch-state combinations enumerated (never sampled) → **307** produce
-   five current levels → **19 distinct output space vectors**, zero vector
-   included.
+1. **Operating-state analysis, exhaustive.** The admissible switch states —
+   those that keep every DC-link rail carrying current — were enumerated
+   exhaustively (never sampled), the subset that produces five current levels
+   identified, and those reduced to the distinct output current vectors
+   (zero vector included).
 2. **Current-sharing law.** The natural assumption that the DC current divides equally between
    parallel rails is incorrect for this topology. Analyzing which components are actually connected together in
    each switching state gave the correct sharing rule; prediction then

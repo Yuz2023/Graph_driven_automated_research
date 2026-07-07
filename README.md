@@ -48,8 +48,9 @@ This workflow uses graphs in three places:
   as a graph, so every conclusion can be traced back to the record that
   produced it.
 
-The graph-theoretic foundation is developed in the laboratory's monograph
-(see References).
+The graph-theoretic foundation is developed in the laboratory's monograph,
+[*Graph Theory in Power Converters*](https://www.wiley.com/en-ca/shop/general-energy/graph-theory-in-power-converters-from-fundamentals-to-applications-p-9781394222292)
+(Wiley; see References).
 
 ### 2. AI agents with direct tool access
 
@@ -134,8 +135,10 @@ re-derivable from the archived records.*
 
 ## References
 
-- Yuzhuo Li and Yunwei Li, *Graph Theory in Power Converters*, monograph,
-  forthcoming. The graph-theoretic foundation of this workflow.
+- Yuzhuo Li and Yunwei Li, [*Graph Theory in Power Converters: From
+  Fundamentals to Applications*](https://www.wiley.com/en-ca/shop/general-energy/graph-theory-in-power-converters-from-fundamentals-to-applications-p-9781394222292),
+  Wiley (ISBN 978-1-394-22229-2). The graph-theoretic foundation of this
+  workflow.
 - Y. Li, J. Kuprat, Y. Li, and M. Liserre, "Graph-Theory-Based Derivation,
   Modeling, and Control of Power Converter Systems," *IEEE Journal of
   Emerging and Selected Topics in Power Electronics*, 2022.

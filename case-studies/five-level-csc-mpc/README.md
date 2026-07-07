@@ -59,3 +59,14 @@ the LC grid filter modeled explicitly.
 | `figures/rev5_waveforms_final.png` | Revision 5 — five-level PWM into a real LC grid filter, THD 2.09–2.28% |
 | `figures/closedloop_bootstrap.png` | Closed-loop start-up from zero stored energy |
 | `figures/current_vector_diagram.png` | The measured 19-vector current space-vector diagram, zero vector included |
+
+## Simulink model
+
+An agent-built Simscape Electrical model of the closed-loop FCS-MPC lives in
+[`models/`](models/) — `g24_5lcsc_fcsmpc.slx`, generated block-by-block by
+`models/build_5lcsc_mpc_slx.m` (regenerable, and verified to reproduce the
+recorded operating point when reloaded from disk and simulated on its own).
+Requires MATLAB R2026a with Simscape Electrical. See
+[`models/README.md`](models/README.md) for what the model does and does not
+report — in particular, the model's pre-filter switch-side THD is a different
+quantity from the post-filter grid THD (2.09–2.28%) quoted above.

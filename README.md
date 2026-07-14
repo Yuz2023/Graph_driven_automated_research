@@ -57,8 +57,14 @@ The graph-theoretic foundation is developed in the laboratory's monograph,
 Through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io),
 the agents operate professional engineering software directly: they build
 and run simulations, process measurement data, and execute large
-enumerations in parallel. The MATLAB/Simulink connection uses MathWorks'
-[Simulink Agentic Toolkit](https://github.com/matlab/simulink-agentic-toolkit). The work is
+enumerations in parallel. MCP is not tied to any one tool: the workflow is
+tool-agnostic, and the MATLAB/Simulink connection used here — via MathWorks'
+[Simulink Agentic Toolkit](https://github.com/matlab/simulink-agentic-toolkit) —
+is simply the one we happen to run. MCP support across professional
+engineering software is developing quickly (circuit and real-time/HIL
+simulators, measurement and EDA tools, and more); the growing landscape is
+surveyed in [Awesome MCP for Power Engineering](https://github.com/Yuz2023/Awesome-MCP-for-Power-Engineering).
+New tool connectors and collaboration are welcome. The work is
 divided among separate roles. A research agent performs the study; a first
 review agent independently reproduces and recomputes every reported
 number; a second review agent examines the interpretation for errors.
@@ -160,7 +166,9 @@ re-derivable from the archived records.*
   open interface through which the agents operate MATLAB/Simulink and
   other software. The MATLAB/Simulink side is provided by the
   [Simulink Agentic Toolkit](https://github.com/matlab/simulink-agentic-toolkit)
-  and the [MATLAB MCP Core Server](https://github.com/matlab/matlab-mcp-core-server).
+  and the [MATLAB MCP Core Server](https://github.com/matlab/matlab-mcp-core-server);
+  a broader survey of MCP servers for engineering tools is collected in
+  [Awesome MCP for Power Engineering](https://github.com/Yuz2023/Awesome-MCP-for-Power-Engineering).
 
 ## Project status
 

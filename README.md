@@ -42,7 +42,7 @@ This workflow uses graphs in three places:
   mechanically.
 - **A knowledge graph.** The laboratory's accumulated knowledge —
   publications, experiment reports, and verified textbook facts — is
-  indexed as a graph of 13,965 nodes, so retrieval is traceable to its
+  indexed as a graph, so retrieval is traceable to its
   sources.
 - **A provenance graph.** Decisions, experiments, and rules are recorded
   as a graph, so every conclusion can be traced back to the record that
